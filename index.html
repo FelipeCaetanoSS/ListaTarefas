@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <button id="dark-mode-toggle">Modo Escuro</button>
+    </header>
+    
+        <h1>Minha lista</h1>
+    <div class="container">
+        <label class="label-nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Nome ou Titulo">
+        <label class="label-titulo">Descrição: </label>
+        <input type="text" id="descricao" name="descricao" placeholder="Descrição da sua tarefa">
+
+        <button id="addButton">Adicionar</button>
+    
+        <div id="mensagem" class="mensagem"></div>
+    </div> 
+
+    <ul id="taskList">
+        <!-- Conteudo do JS -->
+    </ul>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
